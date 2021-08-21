@@ -15,9 +15,17 @@ import java.time.Period;
  * This will ensure that the code written for the older versions is compatible with those
  * interfaces (binary compatibility).
  *
+ * Default methods are accessible through the instance of the implementing class and can be overridden.
+ *
  * @author Rupesh Deshmukh
  */
 public class Java8FeatureDefaultMethodsExample {
+
+    /**
+     * Entry point for the program.
+     *
+     * @param args String[].
+     */
     public static void main(final String[] args) {
         final InternalUser iu = new InternalUser("Rupesh", "Deshmukh", LocalDate.of(1984, Month.APRIL, 29));
         final ExternalUser eu = new ExternalUser("Sayali", "Deshmukh", LocalDate.of(1985, Month.SEPTEMBER, 24));
@@ -52,7 +60,7 @@ interface User {
     }
 
     /**
-     * Abstract method to be implemented by the implementation class.
+     * Abstract method to be implemented by the implementing class.
      * <p>
      * Method should return the user type.
      *
