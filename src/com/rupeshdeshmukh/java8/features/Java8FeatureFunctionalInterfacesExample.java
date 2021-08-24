@@ -31,14 +31,9 @@ package com.rupeshdeshmukh.java8.features;
  */
 public class Java8FeatureFunctionalInterfacesExample {
     public static void main(String[] args) {
-        final Calculator addition = (a, b) -> {
-            return a + b;
-        };
-
-        final Calculator subtraction = (a, b) -> {
-            return a - b;
-        };
-        System.out.println("Addition results: " + addition.execute(10, 5));
+        final Calculator multiplication = (a, b) -> a * b;
+        final Calculator subtraction = (a, b) -> a - b;
+        System.out.println("Multiplication results: " + multiplication.execute(10, 5));
         System.out.println("Subtraction results: " + subtraction.execute(10, 5));
     }
 }
