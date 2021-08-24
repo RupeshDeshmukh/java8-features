@@ -13,14 +13,22 @@ import java.util.stream.Collectors;
  * <p>
  * Collection interface has been extended with stream() and parallelStream() default methods to
  * get the Stream for sequential and parallel execution.
- *
+ * <p>
  * Stream API provides 2 kinds of operations:
- * => Intermediate Operation:
- *   - Operations which transforms a stream into another stream.
- *   - filter(), map(), flatMap(), distinct(), sorted(), peek(), limit(), skip()
- * => Terminal Operation
- *   - Operations which ends stream processing to return an output.
- *   - forEach(), reduce(), collect(), min(), max(), anyMatch(), allMatch(), noneMatch(), findFirst(), findAny()
+ * <ol>
+ * <li>Intermediate Operation:
+ *   <ul>
+ *    <li>Operations which transforms a stream into another stream.</li>
+ *    <li>filter(), map(), flatMap(), distinct(), sorted(), peek(), limit(), skip(), concat()</li>
+ *   </ul>
+ * </li>
+ * <li>Terminal Operation:
+ *   <ul>
+ *   <li>Operations which ends stream processing to return an output.</li>
+ *   <li>forEach(), reduce(), collect(), min(), max(), anyMatch(), allMatch(), noneMatch(), findFirst(), findAny()</li>
+ *   </ul>
+ * </li>
+ * </ol>
  */
 public class Java8FeatureStreamAPIExample {
 

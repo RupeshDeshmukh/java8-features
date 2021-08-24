@@ -1,5 +1,5 @@
-# java8-features
-Repository with code examples to demonstrate features added in Java 8
+# Java 8 New Features
+Repository with code examples to demonstrate new features added in Java 8
 
 * forEach() method in Iterable interface
 * default methods in Interfaces
@@ -7,3 +7,4 @@ Repository with code examples to demonstrate features added in Java 8
 * Optional class and its methods
 * Functional Interfaces and Lambda Expressions
 * Stream API
+* Date Time API
