@@ -5,4 +5,5 @@ Repository with code examples to demonstrate features added in Java 8
 * default methods in Interfaces
 * static methods in Interfaces
 * Optional class and its methods
-* Functional Interfaces
+* Functional Interfaces and Lambda Expressions
+* Stream API

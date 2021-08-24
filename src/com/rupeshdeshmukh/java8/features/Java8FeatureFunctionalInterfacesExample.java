@@ -1,5 +1,7 @@
 package com.rupeshdeshmukh.java8.features;
 
+import java.util.function.IntBinaryOperator;
+
 /**
  * Example to demonstrate the Functional Interfaces that was added in Java 8.
  * <p>
@@ -39,10 +41,17 @@ package com.rupeshdeshmukh.java8.features;
  */
 public class Java8FeatureFunctionalInterfacesExample {
     public static void main(String[] args) {
+        // Example of user defined functional interface,
         final Calculator multiplication = (a, b) -> a * b; // Lambada expression for multiplying 2 numbers
         final Calculator subtraction = (a, b) -> a - b; // Lambada expression for subtracting 2 numbers
-        System.out.println("Multiplication results: " + multiplication.execute(10, 5));
+        System.out.println("Multiplication result: " + multiplication.execute(10, 5));
         System.out.println("Subtraction results: " + subtraction.execute(10, 5));
+
+        // Example of predefined functional interfaces provided by java.
+        final IntBinaryOperator multiply = (a, b) -> a * b;
+        final IntBinaryOperator subtract = (a, b) -> a - b;
+        System.out.println("Multiplication result: " + multiply.applyAsInt(10, 5));
+        System.out.println("Subtraction result: " + subtract.applyAsInt(10, 5));
     }
 }
 
