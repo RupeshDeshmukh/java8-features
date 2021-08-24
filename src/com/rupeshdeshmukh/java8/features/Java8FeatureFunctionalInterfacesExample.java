@@ -28,11 +28,19 @@ package com.rupeshdeshmukh.java8.features;
  * <p>
  * One of the major benefits of the functional interface is the possibility to use lambda expressions
  * to instantiate them. We can instantiate an interface with an anonymous class but the code looks bulky.
+ * Lambda Expressions implement the only abstract function present in the functional interface and thus
+ * implement functional interfaces.
+ * E.g.
+ * (parameters) -> expression
+ * or
+ * (parameters) -> { statements; }
+ * or
+ * () -> expression
  */
 public class Java8FeatureFunctionalInterfacesExample {
     public static void main(String[] args) {
-        final Calculator multiplication = (a, b) -> a * b;
-        final Calculator subtraction = (a, b) -> a - b;
+        final Calculator multiplication = (a, b) -> a * b; // Lambada expression for multiplying 2 numbers
+        final Calculator subtraction = (a, b) -> a - b; // Lambada expression for subtracting 2 numbers
         System.out.println("Multiplication results: " + multiplication.execute(10, 5));
         System.out.println("Subtraction results: " + subtraction.execute(10, 5));
     }
