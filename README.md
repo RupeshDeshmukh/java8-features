@@ -2,4 +2,6 @@
 Repository with code examples to demonstrate features added in Java 8
 
 * forEach() method in Iterable interface
-* default and static methods in Interfaces
+* default methods in Interfaces
+* static methods in Interfaces
+* Optional class and its methods
