@@ -25,6 +25,12 @@ import java.util.Optional;
  * @author Rupesh Deshmukh
  */
 public class Java8FeatureOptionalClassExample {
+
+    /**
+     * Entry point for the program.
+     *
+     * @param args String[].
+     */
     public static void main(String[] args) {
         // Example demonstrating ofNullable() and isPresent() methods.
         final String[] str = new String[10];

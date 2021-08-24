@@ -40,6 +40,12 @@ import java.util.function.IntBinaryOperator;
  * () -> expression
  */
 public class Java8FeatureFunctionalInterfacesExample {
+
+    /**
+     * Entry point for the program.
+     *
+     * @param args String[].
+     */
     public static void main(String[] args) {
         // Example of user defined functional interface,
         final Calculator multiplication = (a, b) -> a * b; // Lambada expression for multiplying 2 numbers
