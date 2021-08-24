@@ -38,6 +38,8 @@ import java.util.function.IntBinaryOperator;
  * (parameters) -> { statements; }
  * or
  * () -> expression
+ *
+ * @author Rupesh Deshmukh
  */
 public class Java8FeatureFunctionalInterfacesExample {
 

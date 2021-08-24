@@ -29,6 +29,8 @@ import java.util.stream.Collectors;
  *   </ul>
  * </li>
  * </ol>
+ *
+ * @author Rupesh Deshmukh
  */
 public class Java8FeatureStreamAPIExample {
 

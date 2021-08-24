@@ -9,6 +9,8 @@ package com.rupeshdeshmukh.java8.features;
  * The static method in an interface can be defined in the interface, but cannot be overridden in
  * Implementation Classes. To use a static method, Interface name should be instantiated with it,
  * as it is a part of the Interface only.
+ *
+ * @author Rupesh Deshmukh
  */
 public class Java8FeatureStaticMethodsExample {
 
